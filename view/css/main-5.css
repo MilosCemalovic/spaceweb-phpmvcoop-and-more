@@ -345,6 +345,8 @@ body {
 
 .btn--presentation {
   grid-column: 4/5;
+  display: grid;
+  grid-template-columns: max-content;
 }
 
 .coffe {
