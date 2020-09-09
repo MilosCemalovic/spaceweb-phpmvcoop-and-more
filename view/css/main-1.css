@@ -1,0 +1,276 @@
+@keyframes moveInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  80% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    transform: translateX(300%);
+  }
+  80% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes visible {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(250%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes invisible {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+@keyframes card-front {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(-180deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+@keyframes card-back {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes light-on-off {
+  0% {
+    fill: #61ccb0;
+    background-color: #f7f7f7;
+  }
+  20% {
+    fill: #f7f7f7;
+    background-color: #61ccb0;
+  }
+  50% {
+    fill: #61ccb0;
+    background-color: #f7f7f7;
+  }
+  70% {
+    fill: #f7f7f7;
+    background-color: #61ccb0;
+  }
+  100% {
+    fill: #61ccb0;
+    background-color: #f7f7f7;
+  }
+}
+
+@keyframes moveInBottom-2 {
+  0% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(-200%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveInRight-2 {
+  0% {
+    transform: translateX(600%) scale(1);
+  }
+  50% {
+    transform: translateX(-10%) scale(1.4);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #666;
+  background-color: #f7f7f7;
+  line-height: 1.4;
+  display: grid;
+  grid-template-rows: 5rem calc(100vh - 5rem) repeat(6, min-content);
+  grid-template-columns: [full-start] minmax(5rem, 1fr) [center-start] repeat(4, minmax(min-content, 30rem)) [center-end] minmax(5rem, 1fr) [full-end];
+}
+
+.heading-1 {
+  text-transform: uppercase;
+}
+
+.heading-1 {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.heading-1-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading-1:hover, .heading-1:active {
+  color: rgba(102, 102, 102, 0.6);
+}
+
+.mtb-lg {
+  margin: 15rem 0;
+}
+
+.logo-link {
+  display: flex;
+}
+
+.logo--nav {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3rem;
+  fill: #666;
+}
+
+.logo--nav:hover, .logo--nav:active {
+  fill: #f75002;
+}
+
+.footer {
+  grid-column: full-start / full-end;
+}
+
+.gallery {
+  grid-column: full-start / full-end;
+}
+
+.header {
+  grid-column: full-start / full-end;
+}
+
+.location {
+  grid-column: full-start / full-end;
+}
+
+.nav {
+  grid-column: full-start / full-end;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  z-index: 2000;
+  background-color: #f7f7f7;
+}
+
+.nav__list {
+  margin-left: auto;
+  align-self: stretch;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, max-content);
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.nav__link:hover, .nav__link:active {
+  color: rgba(102, 102, 102, 0.6);
+}
+
+.newsletter {
+  grid-column: center-start / center-end;
+}
+
+.story__1 {
+  grid-column: center-start / center-end;
+}
+
+.story__2 {
+  grid-column: center-start / center-end;
+}
+/*# sourceMappingURL=main.css.map */
