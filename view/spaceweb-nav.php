@@ -58,7 +58,7 @@
 
       <li class="nav__item">
         <h2 class="nav__heading">
-          <a href="#about" class="nav__link">About us</a>
+          <a href="https://github.com/MilosCemalovic" target="_blanc" class="nav__link">Github</a>
         </h2>
       </li>
 
