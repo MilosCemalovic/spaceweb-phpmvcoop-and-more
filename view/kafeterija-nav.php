@@ -83,7 +83,7 @@
     
     <li class="nav__item">
       <h2>
-        <a href="#map" class="nav__link">Mapa</a>
+        <a href="https://github.com/MilosCemalovic" target="_blanc" class="nav__link">Github</a>
       </h2>
     </li>
     
