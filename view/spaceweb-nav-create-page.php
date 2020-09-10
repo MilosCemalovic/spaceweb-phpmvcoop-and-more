@@ -39,12 +39,6 @@
       </li>
 
       <li class="nav__item">
-        <h1 class="nav__heading">
-          <a href="#top" class="nav__link">Top</a>
-        </h1>
-      </li>
-
-      <li class="nav__item">
         <h2 class="nav__heading">
           <a href="routes.php?page=showrafting" title="Rafting 1, Tara" class="nav__link">Rafting</a>
         </h2>
@@ -60,6 +54,12 @@
         <h2 class="nav__heading">
           <a href="routes.php?page=showkafeterija" title="Kafeterija, Kraljevo" class="nav__link">Kafeterija</a>
         </h2>
+      </li>
+
+      <li class="nav__item">
+        <h1 class="nav__heading">
+          <a href="https://github.com/MilosCemalovic" target="_blanc" class="nav__link">Github</a>
+        </h1>
       </li>
 
       <li class="nav__item">
