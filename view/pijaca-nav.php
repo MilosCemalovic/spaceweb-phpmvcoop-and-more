@@ -30,7 +30,7 @@
 
   <div class="social__top">
 
-    <a class="social__link" href="https://www.linkedin.com/in/milo%C5%A1-%C4%87emalovi%C4%87-3a54423/" target="_blanc">
+    <a class="social__link" href="https://www.linkedin.com/in/milos-cemalovic" target="_blanc">
        <svg class="social__top-icon social__top-icon--1">
          <use xlink:href="img/pijaca/sprite.svg#icon-linkedin"></use>
        </svg>

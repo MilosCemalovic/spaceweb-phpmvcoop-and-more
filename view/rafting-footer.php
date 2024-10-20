@@ -7,7 +7,7 @@
 
     <div class="footer__social">
 
-      <a class="footer__link" href="https://www.linkedin.com/in/milo%C5%A1-%C4%87emalovi%C4%87-3a54423/" target="_blanc">
+      <a class="footer__link" href="https://www.linkedin.com/in/milos-cemalovic" target="_blanc">
          <svg class="footer__icon">
            <use xlink:href="img/rafting/sprite.svg#icon-linkedin"></use>
          </svg>

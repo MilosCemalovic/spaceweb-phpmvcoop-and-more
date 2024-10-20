@@ -25,7 +25,7 @@
 
     <div class="social">
 
-      <a class="social__link" href="https://www.linkedin.com/in/milo%C5%A1-%C4%87emalovi%C4%87-3a54423/" target="_blanc">
+      <a class="social__link" href="https://www.linkedin.com/in/milos-cemalovic" target="_blanc">
         <svg class="social__icon social__icon--1">
           <use xlink:href="img/kafeterija/sprite.svg#icon-linkedin1"></use>
         </svg>
